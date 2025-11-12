@@ -1,0 +1,27 @@
+Folder Virtual Environment
+
+Ini akan mengabaikan folder 'venv' dan semua isinya
+
+venv/
+/venv/
+*.venv
+*venv/
+
+Cache Python
+
+Nama yang benar adalah pycache (dengan dua underscore)
+
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+File sistem operasi
+
+.DS_Store
+Thumbs.db
+
+File konfigurasi IDE
+
+.vscode/
+.idea/
