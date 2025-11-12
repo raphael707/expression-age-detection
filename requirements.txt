@@ -4,3 +4,4 @@ tf-keras
 tensorflow-cpu
 opencv-python-headless
 Pillow
+streamlit_webrtc
