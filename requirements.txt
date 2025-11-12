@@ -1,10 +1,5 @@
 streamlit
 deepface
-
-# Perbaikan untuk bug Keras 3 yang kita lihat sebelumnya
-retinaface-core==0.0.13
-
-# Optimasi untuk server (lebih ringan)
 tensorflow-cpu
 opencv-python-headless
 Pillow
