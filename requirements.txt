@@ -1,5 +1,6 @@
 streamlit
 deepface
+tf-keras
 tensorflow-cpu
 opencv-python-headless
 Pillow
