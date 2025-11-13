@@ -11,7 +11,7 @@ def pre_load_models():
     
     try:
         # Coba impor dan bangun model secara eksplisit
-        from deepface.extendedmodels import Age, Emotion
+        from deepface import Age, Emotion
         
         print("Memuat model Umur...")
         Age.load_model()
