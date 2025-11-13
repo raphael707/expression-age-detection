@@ -2,12 +2,12 @@ import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-from deepface import DeepFace
-from utils import terjemahkan_ekspresi # Ambil dari utils
+from utils import terjemahkan_ekspresi
 
 # --- Fungsi untuk Mode Unggah Gambar ---
 
 def proses_gambar(uploaded_image):
+    from deepface import DeepFace
     """
     Membaca gambar yang diunggah, menjalankan analisis DeepFace, 
     dan menggambar hasilnya.
